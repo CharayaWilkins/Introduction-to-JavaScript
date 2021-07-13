@@ -72,7 +72,7 @@ Do the following:
 function multiply(a, b){
   return a * b;
 }
-console.log (multiply(2,5));
+console.log(multiply(2,5));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -119,16 +119,23 @@ NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.449
 */  
 
 function hungryDog(age, weight){
-  if(age >= .17 && <= .33  ){
+  if(age >= .17 && age <= .33  ){
     return weight * .10;
-  }if(age >= .34 && <= .58 ){
+  }if(age >= .34 && age <= .58 ){
     return weight * .05;
-  }if(age >= .59 && <= .99){
+  }if(age >= .59 && age <= .99){
     return weight * .04;
-  }else if(age <= 1 && weight <= 5)
-  return weight * .04;
-}else if()
-
+  }else if(age <= 1 && weight <= 5){
+  return weight * .05;
+  }else if(age <= 1 && weight < 11 && weight > 5 ){
+    return weight * .04;
+  }else if(age <= 1 && weight < 16 && weight > 10){
+    return weight * .03;
+    }else if(age <= 1 && weight < 15);{
+      return weight * .02;
+    }
+}
+console.log(hungryDog(1,15));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
