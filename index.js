@@ -131,7 +131,7 @@ function hungryDog(age, weight){
     return weight * .04;
   }else if(age <= 1 && weight < 16 && weight > 10){
     return weight * .03;
-    }else if(age <= 1 && weight < 15);{
+  }else if(age <= 1 && weight < 15);{
       return weight * .02;
     }
 }
@@ -195,8 +195,8 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(km){
+  return km * .621371;
 }
 
 
