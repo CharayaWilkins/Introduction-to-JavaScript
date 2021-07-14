@@ -247,8 +247,18 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
+function grade(percent){
+  if(percent < 100 & percent > 89){
+  return 'you got an A';
+  }if(percent < 90 & percent > 81){
+  return 'you got a B';
+  }if(percent < 80 & percent > 71){
+  return 'you got a C';
+  }if(percent < 70 & percent > 59){
+  return 'you got a D';
+  }else(percent > 60){
+  return 'you got an f';
+  }
 }
 
 
